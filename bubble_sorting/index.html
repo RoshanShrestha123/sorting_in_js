@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sorting algorithm</title>
+    <style media="screen">
+      *{
+        margin:0;
+        padding:0;
+        font-family:sans-serif;
+      }
+      canvas{
+        margin-left: 50px;
+      }
+      .heading{
+        text-align: center;
+        margin-top: 10px;
+      }
+      .displayBoxRight{
+        float: right;
+        margin-right: 40px;
+      }
+      .displayBoxLeft{
+        float: left;
+        margin-left: 40px;
+      }
+      button{
+        background-color: black;
+        color: white;
+        padding: 5px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="heading">
+      <h2>Bubble Sorting Algorithm</h2>
+      <h5>By Roshan Shrestha</h5>
+    </div>
+    <div class="displayBoxRight">
+
+      <h5>Swapped Done:</h5><h6 id="swappedElement"></h6><h6>Times!</h6>
+    </div>
+    <div class="displayBoxLeft">
+
+      <h5>Total Element:</h5><h6 id="TotalElement"></h6>
+      <button type="button" name="button" onclick="generateElements()">Generate Element</button>
+
+      <button type="button" name="button" onclick="generateElements()"></button>
+    </div>
+
+
+    <canvas id="canvas"></canvas>
+    <script type="text/javascript" src="main.js">
+
+    </script>
+  </body>
+</html>
